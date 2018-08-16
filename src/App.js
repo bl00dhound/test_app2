@@ -12,7 +12,7 @@ class App extends Component {
         <div>
           <Route path='/' component={Home} />
           <Switch>
-            <Route path='/path' exact componen={() => <div></div>} />
+            <Route path='/path' exact component={() => <div></div>} />
             <Route path='/path/:dummyComponent' exact component={asyncComponent()} />
           </Switch>
         </div>
